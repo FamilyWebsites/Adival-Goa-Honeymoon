@@ -52,19 +52,6 @@
 	  margin-top: var(--bs-gutter-y);
 	}
 	
-	@media (min-width: 576px) {
-	  .col-sm-6 {
-	    flex: 0 0 auto;
-	    width: 50%;
-	  }
-	}
-	
-	@media (min-width: 992px) {
-	  .col-lg-4 {
-	    flex: 0 0 auto;
-	    width: 33.3333333333%;
-	  }
-	}
 	
 	.card {
 	  position: relative;
@@ -108,7 +95,16 @@
 	.text-muted {
 	  color: #6c757d !important;
 	}
-	
-	.card:hover {
-	  filter: opacity(0.5);
+
+	.card .text-overlay {
+		text-align: center;
+		color: rgb(0, 0, 0);
+		padding: 10px 10px;
+		border-radius: 10px;
+		font-size: larger;
+		text-shadow: 10 10 black !important;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 	}
+	
+
+	
